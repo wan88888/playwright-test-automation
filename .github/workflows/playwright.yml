@@ -31,9 +31,7 @@ jobs:
 
       - name: Run all tests
         run: |
-          npx playwright test tests/pomTests/
-          npx playwright test tests/ddtTests/
-          npx cucumber-js tests/bddTests/features/
+          npx playwright test
 
       - name: Upload test results
         if: always()
