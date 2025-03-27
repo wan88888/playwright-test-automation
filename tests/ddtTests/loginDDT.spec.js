@@ -1,6 +1,6 @@
 const { test, expect } = require('@playwright/test');
 const LoginPage = require('../../pages/loginPage');
-const users = require('../../testData/users.json').users;
+const users = require('../../testdata/users.json').users;
 
 test.describe('Data-Driven Login Tests', () => {
   // 测试有效用户登录
